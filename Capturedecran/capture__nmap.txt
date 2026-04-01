@@ -1,0 +1,25 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2026-04-01 04:22 EDT
+Initiating Ping Scan at 04:22
+Scanning localhost (127.0.0.1) [2 ports]
+Completed Ping Scan at 04:22, 0.00s elapsed (1 total hosts)
+Initiating Connect Scan at 04:22
+Scanning localhost (127.0.0.1) [1000 ports]
+Discovered open port 22/tcp on 127.0.0.1
+Discovered open port 5900/tcp on 127.0.0.1
+Discovered open port 5901/tcp on 127.0.0.1
+Discovered open port 19780/tcp on 127.0.0.1
+Discovered open port 8333/tcp on 127.0.0.1
+Completed Connect Scan at 04:22, 0.02s elapsed (1000 total ports)
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000046s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 995 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+5900/tcp  open  vnc
+5901/tcp  open  vnc-1
+8333/tcp  open  bitcoin
+19780/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 0.04 seconds

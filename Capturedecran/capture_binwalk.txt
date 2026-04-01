@@ -1,0 +1,5 @@
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Squashfs filesystem, little endian, version 4.0, compression:xz, size: 694 bytes, 8 inodes, blocksize: 131072 bytes, created: 2026-04-01 08:20:19
+

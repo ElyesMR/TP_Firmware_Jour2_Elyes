@@ -1,0 +1,14 @@
+extracted_rootfs:
+bin
+etc
+www
+
+extracted_rootfs/bin:
+httpd
+
+extracted_rootfs/etc:
+passwd
+shadow
+
+extracted_rootfs/www:
+index.html
